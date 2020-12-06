@@ -1,0 +1,47 @@
+const depMain = {
+  name: "Головняк",
+  shortname: "Головняк",
+  parent: null
+};
+
+const depBrest = {
+  name: "Филиал в Брестской области",
+  shortname: "Брест",
+  parent: null
+};
+
+const dist = {
+  name: "УИСТ",
+  parent: depMain
+};
+
+const buh = {
+  name: "Бухгалтерия",
+  parent: depMain
+};
+
+export const contactsRaw = [
+  {
+    name: "Тимофей Лукашевич",
+    phones: ["+375 29 120-68-78", "+8017 347-08-24"],
+    emails: ["lukashevich.t@gto.by", "ltv@gto.by"],
+    parent: dist
+  },
+  {
+    name: "Дмитрий Жук",
+    phones: ["+375 29 ххх-хх-хх", "+8017 yyy-yy-yy"],
+    emails: ["zhuk.d@gto.by"],
+    parent: dist
+  },
+  {
+    name: "Михнюк Александр",
+    phones: ["+375 29 ххх-хх-хх", "+8017 yyy-yy-yy"],
+    emails: ["mihniuk@gto.by"],
+    parent: depBrest
+  },
+  {
+    name: "Unemployed",
+    phones: ["top secret"],
+    emails: ["none"],
+  },
+];
