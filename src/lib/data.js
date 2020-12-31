@@ -2536,6 +2536,10 @@ export const contactsRaw = [
     p: uogto
   },
   {
+    ph: [
+      { t: 1, p: "+37529 320 29 67" },
+      { t: 3, p: "135" }
+    ],
     e: [{ t: 1, e: "damoratskaia.a@gto.by" }],
     n: "Даморацкая Алла Сергеевна",
     p: uefho
@@ -2546,7 +2550,11 @@ export const contactsRaw = [
     p: uefho
   },
   {
-    ph: [{ t: 1, p: "+37533 6307367" }],
+    ph: [
+      { t: 1, p: "+37533 6307367" },
+      { t: 2, p: "+37517 3172150" },
+      { t: 3, p: "105" }
+    ],
     e: [{ t: 1, e: "chuchkov.s@gto.by" }],
     n: "Чучков Станислав Георгиевич",
     p: uefho
