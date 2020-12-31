@@ -194,6 +194,7 @@ const supply = {
 };
 
 const hr = {
+  e: [{ t: 1, e: "ok@gto.by" }],
   n: "Отдел правовой, кадровой работы и контроля",
   p: mainOffice
 };
