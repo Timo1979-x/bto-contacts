@@ -1543,15 +1543,15 @@ export const contactsRaw = [
     n: "Яхно Николай Збышкович",
     p: grodnoDept
   },
-  {
-    ph: [
-      { t: 1, p: "+37529 7001194" },
-      { t: 1, p: "+37529 128-18-17" }
-    ],
-    e: [{ t: 1, e: "lyasotsky.v@gto.by" }],
-    n: "Лясоцкий Витослав Янушевич",
-    p: grodnoDept
-  },
+  // {
+  //   ph: [
+  //     { t: 1, p: "+37529 7001194" },
+  //     { t: 1, p: "+37529 128-18-17" }
+  //   ],
+  //   e: [{ t: 1, e: "lyasotsky.v@gto.by" }],
+  //   n: "Лясоцкий Витослав Янушевич",
+  //   p: grodnoDept
+  // },
   {
     ph: [{ t: 1, p: "+37529 7001079" }],
     e: [{ t: 1, e: "ignatovich.a@gto.by" }],
@@ -2635,6 +2635,11 @@ export const contactsRaw = [
   {
     e: [{ t: 1, e: "potapov.s@gto.by" }],
     n: "Потапов Сергей Борисович",
+    p: uogto
+  },
+  {
+    e: [{ t: 1, e: "nalivayko.b@gto.by" }],
+    n: "Наливайко Борис Иванович",
     p: uogto
   },
   {

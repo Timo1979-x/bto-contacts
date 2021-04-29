@@ -36,20 +36,18 @@
               @click.stop="showDetails(prop.node)"
             />
             <span v-if="prop.node.mt"
-              ><a :href="'mailto:' + prop.node.mt" @click.stop="clickLink"
+              ><a @click.stop.prevent="clickLink('mailto:' + prop.node.mt)"
                 ><q-icon name="email" />{{ prop.node.e[0].e }}</a
               ></span
             >
             <span v-if="prop.node.gmt" title="Написать всем"
               >&nbsp;&nbsp;<a
-                :href="'mailto:' + prop.node.gmt"
-                @click.stop="clickLink"
+                @click.stop.prevent="clickLink('mailto:' + prop.node.gmt)"
                 ><q-icon name="email" style="color: green;"/></a
             ></span>
             <span v-if="prop.node.pt"
               >&nbsp;&nbsp;<a
-                :href="'tel:' + prop.node.pt"
-                @click.stop="clickLink"
+                @click.stop.prevent="clickLink('tel:' + prop.node.pt)"
                 ><q-icon name="phone" />{{ prop.node.pt }}</a
               ></span
             >
@@ -152,9 +150,9 @@ export default {
       this.details = x;
       this.detailsVisible = true;
     },
-    clickLink(x) {
-      console.log(x.target.href);
-      window.location = x.target.href;
+    clickLink(href) {
+      console.log(href);
+      window.location = href;
     },
     resetFilter() {
       this.filter = "";
