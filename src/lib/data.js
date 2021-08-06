@@ -327,6 +327,7 @@ export const contactsRaw = [
     p: ds75
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 826 54 32" }],
     e: [{ t: 1, e: "hrishin.s@gto.by" }],
     n: "Гришин Сергей Геннадьевич",
     p: ds75
@@ -415,6 +416,7 @@ export const contactsRaw = [
     p: brestDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 565-53-58" }],
     e: [{ t: 1, e: "volynets.m@gto.by" }],
     n: "Волынец Михаил Юрьевич",
     p: brestDept
@@ -732,6 +734,10 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [
+      { t: PH_MOBILE, p: "+37529 645 84 70" },
+      { t: PH_MOBILE, p: "+37529 176 31 14" }
+    ],
     e: [{ t: 1, e: "arestov.n@gto.by" }],
     n: "Арестов Николай Фёдорович",
     p: vitebskDept
@@ -764,11 +770,13 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 811 04 98" }],
     e: [{ t: 1, e: "volodko.s@gto.by" }],
     n: "Володько Сергей Леонидович",
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 595 12 30" }],
     e: [{ t: 1, e: "harbus.p@gto.by" }],
     n: "Гарбус Пётр Владимирович",
     p: vitebskDept
@@ -779,6 +787,10 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [
+      { t: PH_MOBILE, p: "+37529 710 34 01" },
+      { t: PH_MOBILE, p: "+37544 755 34 01" }
+    ],
     e: [{ t: 1, e: "hrihorovich.e@gto.by" }],
     n: "Григорович Эдуард Эдуардович",
     p: vitebskDept
@@ -789,6 +801,7 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 682 97 99" }],
     e: [{ t: 1, e: "danilchenko.s@gto.by" }],
     n: "Данильченко Сергей Иванович",
     p: vitebskDept
@@ -800,6 +813,7 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 115 36 05" }],
     e: [{ t: 1, e: "efimov.o@gto.by" }],
     n: "Ефимов Олег Михайлович",
     p: vitebskDept
@@ -826,6 +840,10 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [
+      { t: PH_MOBILE, p: "+37529 647 55 10" },
+      { t: PH_MOBILE, p: "+37529 110 63 69" }
+    ],
     e: [{ t: 1, e: "konyshev.o@gto.by" }],
     n: "Конышев Олег Алексеевич",
     p: vitebskDept
@@ -836,6 +854,7 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 713 14 30" }],
     e: [{ t: 1, e: "levitskii.s@gto.by" }],
     n: "Левицкий Сергей Вячеславович",
     p: vitebskDept
@@ -847,11 +866,13 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 710 29 96" }],
     e: [{ t: 1, e: "markovich.p@gto.by" }],
     n: "Маркович Павел Сергеевич",
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 713 70 15" }],
     e: [{ t: 1, e: "mihal.l@gto.by" }],
     n: "Мигаль Леонид Данилович",
     p: vitebskDept
@@ -904,6 +925,7 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 342-42-95" }],
     e: [{ t: 1, e: "rybakov.i@gto.by" }],
     n: "Рыбаков Игорь Николаевич",
     p: vitebskDept
@@ -918,6 +940,7 @@ export const contactsRaw = [
     p: vitebskDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 713-79-71" }],
     e: [{ t: 1, e: "serebro.p@gto.by" }],
     n: "Серебро Пётр Сергеевич",
     p: vitebskDept
@@ -1021,6 +1044,10 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
+    ph: [
+      { t: PH_MOBILE, p: "+375 29 238-04-95" },
+      { t: PH_MOBILE, p: "+375 29 310-25-95" }
+    ],
     e: [{ t: 1, e: "vasiliuk.m@gto.by" }],
     n: "Василюк Максим Сергеевич",
     p: gomelDept
@@ -1042,11 +1069,13 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 608 97 79" }],
     e: [{ t: 1, e: "hrichshenko.p@gto.by" }],
     n: "Грищенко Павел Владимирович",
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 312 96 05" }],
     e: [{ t: 1, e: "emelianov.o@gto.by" }],
     n: "Емельянов Олег Викентьевич",
     p: gomelDept
@@ -1063,6 +1092,7 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 732 99 11" }],
     e: [{ t: 1, e: "keturov.p@gto.by" }],
     n: "Кетуров Павел Александрович",
     p: gomelDept
@@ -1085,11 +1115,13 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 648 58 22" }],
     e: [{ t: 1, e: "kolodeznyi.i@gto.by" }],
     n: "Колодезный Юрий Анатольевич",
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 719 05 37" }],
     e: [{ t: 1, e: "kostroma.f@gto.by" }],
     n: "Кострома Федор Федорович",
     p: gomelDept
@@ -1110,11 +1142,13 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 722 75 20" }],
     e: [{ t: 1, e: "lapitskii.o@gto.by" }],
     n: "Лапицкий Олег Петрович",
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 107 65 61" }],
     e: [{ t: 1, e: "latyshev.m@gto.by" }],
     n: "Латышев Михаил Анатольевич",
     p: gomelDept
@@ -1143,6 +1177,7 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 642-25-90" }],
     e: [{ t: 1, e: "novikov.s@gto.by" }],
     n: "Новиков Сергей Николаевич",
     p: gomelDept
@@ -1235,6 +1270,7 @@ export const contactsRaw = [
     p: ds124
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 44 561-89-00" }],
     e: [{ t: 1, e: "ostapchik.s@gto.by" }],
     n: "Остапчик Сергей Михайлович",
     p: ds124
@@ -1287,11 +1323,13 @@ export const contactsRaw = [
     p: ds73
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 7799390" }],
     e: [{ t: 1, e: "kocherevskii.k@gto.by" }],
     n: "Кочеревский Казимир-Иван Леонардович",
     p: ds73
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 658-20-65" }],
     e: [{ t: 1, e: "stankevich.v@gto.by" }],
     n: "Станкевич Виктор Марьянович",
     p: ds73
@@ -1345,6 +1383,7 @@ export const contactsRaw = [
     p: ds78
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 5306167" }],
     e: [{ t: 1, e: "banenko.p@gto.by" }],
     n: "Баненко Павел Андреевич",
     p: ds235
@@ -1415,11 +1454,13 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 3570767" }],
     e: [{ t: 1, e: "horbach.m@gto.by" }],
     n: "Горбач Франц Владимирович",
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 5840509" }],
     e: [{ t: 1, e: "hriniuk.i@gto.by" }],
     n: "Гринюк Игорь Сергеевич",
     p: grodnoDept
@@ -1430,6 +1471,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 6722411" }],
     e: [{ t: 1, e: "dubitskii.s@gto.by" }],
     n: "Дубицкий Святослав Деонисович",
     p: grodnoDept
@@ -1441,16 +1483,19 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "375447179094" }],
     e: [{ t: 1, e: "evseichik.l@gto.by" }],
     n: "Евсейчик Леонид Владимирович",
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 5425412" }],
     e: [{ t: 1, e: "zhivushko.n@gto.by" }],
     n: "Живушко Николай Александрович",
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 146-60-03" }],
     e: [{ t: 1, e: "ivanov.i@gto.by" }],
     n: "Иванов Юрий Александрович",
     p: grodnoDept
@@ -1484,6 +1529,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 6303317" }],
     e: [{ t: 1, e: "markevich.s@gto.by" }],
     n: "Маркевич Славомир Генрихович",
     p: grodnoDept
@@ -1501,6 +1547,10 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [
+      { t: PH_MOBILE, p: "+37529 146-60-04" },
+      { t: PH_MOBILE, p: "+37529 700-12-69" }
+    ],
     e: [{ t: 1, e: "medkovskii.s@gto.by" }],
     n: "Медковский Станислав Вацлавович",
     p: grodnoDept
@@ -1537,6 +1587,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 5803121" }],
     e: [{ t: 1, e: "prokopik.m@gto.by" }],
     n: "Прокопик Мария Олеговна",
     p: grodnoDept
@@ -1547,6 +1598,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 44 718-20-50" }],
     e: [{ t: 1, e: "radiuk.i@gto.by" }],
     n: "Радюк Юрий Станиславович",
     p: grodnoDept
@@ -1617,6 +1669,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 694-81-35" }],
     e: [{ t: 1, e: "chshiotka.i@gto.by" }],
     n: "Щётка Ян Мечиславович",
     p: grodnoDept
@@ -1632,6 +1685,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 146-60-12" }],
     e: [{ t: 1, e: "iakhno.n@gto.by" }],
     n: "Яхно Николай Збышкович",
     p: grodnoDept
@@ -1652,6 +1706,7 @@ export const contactsRaw = [
     p: grodnoDept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 6 184 923" }],
     e: [{ t: 1, e: "lebedev.s@gto.by" }],
     n: "Лебедев Сергей Анатольевич",
     p: ds70
@@ -1712,16 +1767,19 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 8 583 807" }],
     e: [{ t: 1, e: "borisevich.r@gto.by" }],
     n: "Борисевич Руслан Михайлович",
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 320-11-19" }],
     e: [{ t: 1, e: "bud-husaim.m@gto.by" }],
     n: "Буд-Гусаим Михаил Антонович",
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 555 49 14" }],
     e: [{ t: 1, e: "budnikov.s@gto.by" }],
     n: "Будников Сергей Валентинович",
     p: r5Dept
@@ -1744,6 +1802,7 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 5 679 796" }],
     e: [{ t: 1, e: "hrintsevich.s@gto.by" }],
     n: "Гринцевич Сергей Петрович",
     p: r5Dept
@@ -1775,6 +1834,7 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 652 20 21" }],
     e: [{ t: 1, e: "emelianov.s@gto.by" }],
     n: "Емельянов Сергей Фёдорович",
     p: r5Dept
@@ -1785,6 +1845,7 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 774 05 08" }],
     e: [{ t: 1, e: "zubarik.r@gto.by" }],
     n: "Зубарик Роман Сергеевич",
     p: r5Dept
@@ -1805,6 +1866,7 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 141 28 40" }],
     e: [{ t: 1, e: "klishevich.n@gto.by" }],
     n: "Клишевич Николай Александрович",
     p: r5Dept
@@ -1840,6 +1902,7 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 44 545-41-99" }],
     e: [{ t: 1, e: "osadchii.r@gto.by" }],
     n: "Осадчий Роман Викторович",
     p: r5Dept
@@ -1890,11 +1953,13 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 663-79-26" }],
     e: [{ t: 1, e: "salnikov.s@gto.by" }],
     n: "Сальников Сергей Викторович",
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 601-30-17" }],
     e: [{ t: 1, e: "suvorov.s@gto.by" }],
     n: "Суворов Сергей Николаевич",
     p: r5Dept
@@ -1916,6 +1981,7 @@ export const contactsRaw = [
     p: r5Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 630-81-44" }],
     e: [{ t: 1, e: "shapchits.p@gto.by" }],
     n: "Шапчиц Петр Иванович",
     p: r5Dept
@@ -2036,6 +2102,7 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 6092632" }],
     e: [{ t: 1, e: "demidovets.s@gto.by" }],
     n: "Демидовец Сергей Алексеевич",
     p: r6Dept
@@ -2057,6 +2124,7 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37544 7042675" }],
     e: [{ t: 1, e: "dubiaho.s@gto.by" }],
     n: "Дубяго Сергей Николаевич",
     p: r6Dept
@@ -2067,11 +2135,13 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 6075351" }],
     e: [{ t: 1, e: "zuskov.i@gto.by" }],
     n: "Зуськов Игорь Иванович",
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 3307167" }],
     e: [{ t: 1, e: "ivanov.s@gto.by" }],
     n: "Иванов Сергей Аркадьевич",
     p: r6Dept
@@ -2100,6 +2170,7 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 6940232" }],
     e: [{ t: 1, e: "los.s@gto.by" }],
     n: "Лось Сергей Александрович",
     p: r6Dept
@@ -2110,6 +2181,7 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 645-68-64" }],
     e: [{ t: 1, e: "ovchinnikov.o@gto.by" }],
     n: "Овчинников Олег Владимирович",
     p: r6Dept
@@ -2141,6 +2213,7 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 185-88-90" }],
     e: [{ t: 1, e: "shibalkina.t@gto.by" }],
     n: "Шибалкина Татьяна Дмитриевна",
     p: r6Dept
@@ -2151,6 +2224,7 @@ export const contactsRaw = [
     p: r6Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 322-03-00" }],
     e: [{ t: 1, e: "shuniborov.i@gto.by" }],
     n: "Шуниборов Игорь Владимирович",
     p: r6Dept
@@ -2159,6 +2233,12 @@ export const contactsRaw = [
     ph: [{ t: 1, p: "+37529 7001196" }],
     e: [{ t: 1, e: "volkov.v@gto.by" }],
     n: "Волков Виктор Васильевич",
+    p: r6Dept
+  },
+  {
+    ph: [{ t: 1, p: "+37544 720 73 64" }],
+    e: [{ t: 1, e: "deminov.k@gto.by" }],
+    n: "Дёминов Константин Леонидович",
     p: r6Dept
   },
   {
@@ -2246,6 +2326,7 @@ export const contactsRaw = [
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 554 19 73" }],
     e: [{ t: 1, e: "vasilev.i@gto.by" }],
     n: "Васильев Игорь Михайлович",
     p: r7Dept
@@ -2280,11 +2361,13 @@ export const contactsRaw = [
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 129 08 56" }],
     e: [{ t: 1, e: "danilevich.s@gto.by" }],
     n: "Данилевич Степан Владимирович",
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 195 47 17" }],
     e: [{ t: 1, e: "deichman.m@gto.by" }],
     n: "Дейчман Михаил Александрович",
     p: r7Dept
@@ -2365,6 +2448,7 @@ export const contactsRaw = [
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 676 68 74" }],
     e: [{ t: 1, e: "latysh.s@gto.by" }],
     n: "Латыш Светлана Александровна",
     p: r7Dept
@@ -2411,6 +2495,10 @@ export const contactsRaw = [
     p: r7Dept
   },
   {
+    ph: [
+      { t: PH_MOBILE, p: "+375 29 855-36-77" },
+      { t: PH_MOBILE, p: "+375 29 131-16-83" }
+    ],
     e: [{ t: 1, e: "pekarchik.s@gto.by" }],
     n: "Пекарчик Сергей Владимирович",
     p: r7Dept
@@ -2439,16 +2527,19 @@ export const contactsRaw = [
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 7021037" }],
     e: [{ t: 1, e: "svirepa.s@gto.by" }],
     n: "Свирепа Станислав Сергеевич",
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 44 742-28-66" }],
     e: [{ t: 1, e: "sviridovich.i@gto.by" }],
     n: "Свиридович Юрий Александрович",
     p: r7Dept
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 2621731" }],
     e: [{ t: 1, e: "sopot.m@gto.by" }],
     n: "Сопот Михаил Александрович",
     p: r7Dept
@@ -2655,6 +2746,7 @@ export const contactsRaw = [
     p: dept40
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+37529 611 71 01" }],
     e: [{ t: 1, e: "ksi@gto.by" }],
     n: "Коледа Сергей Иванович",
     p: dept40
@@ -2858,6 +2950,12 @@ export const contactsRaw = [
     ],
     e: [{ t: 1, e: "lukashevich.t@gto.by" }],
     n: "Лукашевич Тимофей Викентьевич",
+    p: uist
+  },
+  {
+    ph: [{ t: PH_MOBILE, p: "+37525 979-74-38" }],
+    e: [{ t: 1, e: "dergacheva.m@gto.by" }],
+    n: "Дергачёва Марина Валерьевна",
     p: uist
   },
   {
