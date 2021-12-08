@@ -1154,11 +1154,6 @@ export const contactsRaw = [
     p: gomelDept
   },
   {
-    e: [{ t: 1, e: "marchenko.a@gto.by" }],
-    n: "Марченко Алексей Николаевич",
-    p: gomelDept
-  },
-  {
     ph: [{ t: PH_MOBILE, p: "+37544 714 04 70" }],
     e: [{ t: 1, e: "mariankov.a@gto.by" }],
     n: "Марьянков Алексей Сергеевич",
@@ -2400,12 +2395,6 @@ export const contactsRaw = [
     p: r7Dept
   },
   {
-    ph: [{ t: PH_MOBILE, p: "+375 29 130-46-34" }],
-    e: [{ t: 1, e: "keinikh.e@gto.by" }],
-    n: "Кейних Евгений Александрович",
-    p: r7Dept
-  },
-  {
     e: [{ t: 1, e: "kiseliov.o@gto.by" }],
     n: "Киселёв Олег Иванович",
     p: r7Dept
@@ -2619,7 +2608,7 @@ export const contactsRaw = [
   {
     ph: [
       { t: PH_MOBILE, p: "+37529 233-93-31" },
-      { t: PH_INTERNAL, p: "124" }
+      { t: PH_INTERNAL, p: "115" }
     ],
     e: [{ t: 1, e: "burakovskaia.m@gto.by" }],
     n: "Бураковская Марина Михайловна",
@@ -2633,7 +2622,7 @@ export const contactsRaw = [
   },
   {
     ph: [
-      { t: PH_INTERNAL, p: "138" },
+      { t: PH_INTERNAL, p: "117" },
       { t: PH_MOBILE, p: "+37529 646-57-93" }
     ],
     e: [{ t: 1, e: "kebich.a@gto.by" }],
@@ -2641,8 +2630,14 @@ export const contactsRaw = [
     p: buh
   },
   {
+    ph: [{ t: PH_INTERNAL, p: "118" }],
+    e: [],
+    n: "Бусло Ольга",
+    p: buh
+  },
+  {
     ph: [
-      { t: PH_INTERNAL, p: "109" },
+      { t: PH_INTERNAL, p: "120" },
       { t: PH_MOBILE, p: "+37529 878 11 29" }
     ],
     e: [{ t: 1, e: "knysh.t@gto.by" }],
@@ -2656,7 +2651,7 @@ export const contactsRaw = [
   },
   {
     ph: [
-      { t: PH_INTERNAL, p: "117" },
+      { t: PH_INTERNAL, p: "116" },
       { t: PH_MOBILE, p: "+37529 644-40-85" }
     ],
     e: [{ t: 1, e: "svirid.e@gto.by" }],
@@ -2677,24 +2672,29 @@ export const contactsRaw = [
   {
     ph: [
       { t: PH_MOBILE, p: "+37529 623-60-05" },
-      { t: PH_INTERNAL, p: "108" }
+      { t: PH_INTERNAL, p: "126" }
     ],
     e: [{ t: 1, e: "mikhailova.t@gto.by" }],
     n: "Михайлова Татьяна Иосифовна",
     p: supply
   },
   {
-    ph: [{ t: 1, p: "+37529 7005841" }],
+    ph: [
+      { t: PH_MOBILE, p: "+37529 7005841" },
+      { t: PH_INTERNAL, p: "125" }
+    ],
     e: [{ t: 1, e: "karpitsky.p@gto.by" }],
     n: "Карпицкий Петр Владимирович",
     p: supply
   },
   {
+    ph: [{ t: PH_INTERNAL, p: "130" }],
     e: [{ t: 1, e: "romanova.s@gto.by" }],
     n: "Романова Светлана Алексеевна",
     p: hr
   },
   {
+    ph: [{ t: PH_INTERNAL, p: "131" }],
     e: [{ t: 1, e: "skakun.o@gto.by" }],
     n: "Скакун Ольга Александровна",
     p: hr
@@ -2724,6 +2724,7 @@ export const contactsRaw = [
     p: hr
   },
   {
+    ph: [{ t: PH_INTERNAL, p: "129" }],
     e: [{ t: 1, e: "levkovich.e@gto.by" }],
     n: "Левкович Елена Владимировна",
     p: hr
@@ -2811,9 +2812,15 @@ export const contactsRaw = [
     p: uogto
   },
   {
+    ph: [{ t: PH_MOBILE, p: "+375 29 130-46-34" }],
+    e: [{ t: 1, e: "keinikh.e@gto.by" }],
+    n: "Кейних Евгений Александрович",
+    p: uogto
+  },
+  {
     ph: [
       { t: 1, p: "+37529 320-29-67" },
-      { t: PH_INTERNAL, p: "135" }
+      { t: PH_INTERNAL, p: "111" }
     ],
     e: [{ t: 1, e: "damoratskaia.a@gto.by" }],
     n: "Даморацкая Алла Сергеевна",
@@ -2821,7 +2828,7 @@ export const contactsRaw = [
   },
   {
     ph: [
-      { t: PH_INTERNAL, p: "133" },
+      { t: PH_INTERNAL, p: "112" },
       { t: PH_MOBILE, p: "+37529 668-64-70" }
     ],
     e: [{ t: 1, e: "mozolevskii.a@gto.by" }],
@@ -2850,7 +2857,7 @@ export const contactsRaw = [
   {
     ph: [
       { t: PH_MOBILE, p: "+37529 7001330" },
-      { t: PH_INTERNAL, p: "125" }
+      { t: PH_INTERNAL, p: "103" }
     ],
     e: [{ t: 1, e: "buraya.n@gto.by" }],
     n: "Бурая Наталья Владимировна",
@@ -2859,7 +2866,7 @@ export const contactsRaw = [
   {
     ph: [
       { t: 1, p: "+37529 700-46-38" },
-      { t: PH_INTERNAL, p: "107" }
+      { t: PH_INTERNAL, p: "110" }
     ],
     e: [{ t: 1, e: "tkachenko.v@gto.by" }],
     n: "Ткаченко Виталий Вячеславович",
@@ -2923,7 +2930,7 @@ export const contactsRaw = [
   {
     ph: [
       { t: PH_MOBILE, p: "+37529 128-18-13" },
-      { t: PH_INTERNAL, p: "123" }
+      { t: PH_INTERNAL, p: "137" }
     ],
     e: [{ t: 1, e: "sapronenko.a@gto.by" }],
     n: "Сапроненко Александр Петрович",
@@ -2939,14 +2946,9 @@ export const contactsRaw = [
     p: bosses
   },
   {
-    e: [{ t: 1, e: "nalivayko.b@gto.by" }],
-    n: "Наливайко Борис Иванович",
-    p: uogto
-  },
-  {
     ph: [
       { t: PH_MOBILE, p: "+37529 143-56-16" },
-      { t: PH_INTERNAL, p: "127" }
+      { t: PH_INTERNAL, p: "135" }
     ],
     e: [{ t: 1, e: "lukashevich.t@gto.by" }],
     n: "Лукашевич Тимофей Викентьевич",
@@ -2959,7 +2961,10 @@ export const contactsRaw = [
     p: uist
   },
   {
-    ph: [{ t: PH_MOBILE, p: "+375 29 660-04-43" }],
+    ph: [
+      { t: PH_MOBILE, p: "+375 29 660-04-43" },
+      { t: PH_INTERNAL, p: "139" },
+    ],
     e: [{ t: 1, e: "uradov.i@gto.by" }],
     n: "Урядов Игорь Юрьевич",
     p: uist
@@ -2967,7 +2972,7 @@ export const contactsRaw = [
   {
     ph: [
       { t: PH_MOBILE, p: "+37533 638-55-77" },
-      { t: PH_INTERNAL, p: "137" }
+      { t: PH_INTERNAL, p: "138" }
     ],
     e: [{ t: 1, e: "bulat.i@gto.by" }],
     n: "Булат Игорь Владимирович",
@@ -2988,7 +2993,7 @@ export const contactsRaw = [
     ph: [
       { t: PH_MOBILE, p: "+37529 120-68-28" },
       { t: PH_MOBILE, p: "+37529 700-11-78" },
-      { t: PH_INTERNAL, p: "112" }
+      { t: PH_INTERNAL, p: "134" }
     ],
     e: [{ t: 1, e: "kosko.a@gto.by" }],
     n: "Коско Александр Николаевич",
