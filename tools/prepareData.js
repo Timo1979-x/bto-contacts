@@ -1,3 +1,18 @@
+// преобразовать данные:
+const fs = require("fs");
+const gzip = require("gzip-js");
+const { contactsRaw } = require("../src/lib/data-expanded");
+
+// Развернуть зависимости и почистить от лишнего:
+function convertContactsIntoTree(contacts) {
+  for (let contact of contacts) {
+    linkUptoRoot(contact);
+    contact.i = "person";
+  }
+  cleanupAndFillLinksRecursive(rootNodes);
+  return rootNodes;
+}
+
 /**
  * Рекурсивно чистит подразделения и контакты от лишних записей.
  * Вычисляет для каждого узла ссылки mailto и tel (если у ноды есть email(ы) или телефон(ы))
@@ -44,8 +59,6 @@ function cleanupAndFillLinksRecursive(list) {
   return allChildEmails;
 }
 
-var rootNodes = [];
-let nodeKey = 1;
 /**
  * Преобразовать строку. Если null или состоит из пробелов - вернется пустая строка. Иначе - оригинальная строка с удалёнными пробелами ии добавленным разделителем, который не встречается в критериях поиска - \
  * @param {String} str Входная строка
@@ -75,6 +88,9 @@ function buildSearchTerm(node) {
   return result.toLowerCase();
 }
 
+let nodeKey = 1;
+var rootNodes = [];
+
 function linkUptoRoot(node) {
   if (!node || node.k) return;
   node.i = "group";
@@ -94,12 +110,21 @@ function linkUptoRoot(node) {
   }
 }
 
-// Развернуть зависимости и почистить от лишнего:
-export function convertContactsIntoTree(contacts) {
-  for (let contact of contacts) {
-    linkUptoRoot(contact);
-    contact.i = "person";
+function prepareData() {
+  const convertedContacts = convertContactsIntoTree(contactsRaw);
+
+  const jsonData = JSON.stringify(convertedContacts);
+  const zipData = new Uint8Array(gzip.zip(new TextEncoder().encode(jsonData)));
+  for (let path of ["./public/data.json"]) {
+    fs.writeFile(path, jsonData, err => {
+      if (err) throw err;
+    });
+
+    fs.writeFile(path + ".gz", zipData, err => {
+      if (err) throw err;
+    });
   }
-  cleanupAndFillLinksRecursive(rootNodes);
-  return rootNodes;
 }
+prepareData();
+
+module.exports = prepareData;

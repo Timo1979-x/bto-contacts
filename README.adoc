@@ -2,7 +2,7 @@
 Самописное приложение для ведения списка контактов
 
 == Формат входного файла
-Файл src/lib/data.json. Содержит информацию о подразделениях и контактах.
+Файл src/lib/data-expanded.json. Содержит информацию о подразделениях и контактах.
 Пример с пояснениями
 [source,javascript]
 ----
@@ -33,7 +33,7 @@ const brestDept = {
 Формат контакта точно такой же. Разве что поле "краткое наименование" не имеет смысла.
 
 == Сборка
-Install the dependencies
+Установить зависимости:
 [source,]
 ----
 yarn
@@ -50,11 +50,22 @@ Lint the files
 yarn run lint
 ----
 
-Build the app for production
+Собрать готовое приложение:
 [source,]
 ----
 quasar build
 ----
+
+Преобразовать входной файл ./src/lib/data-expanded.json в формат, используемый приложением:
+[source,]
+----
+yarn prepareData
+или 
+yarn pd
+----
+При сборке приложения это происходит автоматически.
+
+
 Customize the configuration
 
 See Configuring quasar.conf.js.

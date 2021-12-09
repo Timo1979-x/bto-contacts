@@ -32,7 +32,9 @@
           <q-icon :name="prop.node.i" />
           <div class="text-weight-bold text-primary">
             &nbsp;&nbsp;{{ prop.node.n }} &nbsp;&nbsp;<q-icon
-              name="info" title="Подробнее" style="cursor: pointer;"
+              name="info"
+              title="Подробнее"
+              style="cursor: pointer;"
               @click.stop="showDetails(prop.node)"
             />
             <span v-if="prop.node.mt"
@@ -69,9 +71,11 @@
                 <q-item-label
                   ><q-btn dense @click="clip(e.e)" title="Скопировать в буфер"
                     ><q-icon name="content_copy"/></q-btn
-                  >&nbsp;<q-btn dense><a :href="'mailto:' + e.e" title="Написать письмо"
-                    ><q-icon name="email" /> {{ e.e }}</a
-                  ></q-btn></q-item-label
+                  >&nbsp;<q-btn dense
+                    ><a :href="'mailto:' + e.e" title="Написать письмо"
+                      ><q-icon name="email" /> {{ e.e }}</a
+                    ></q-btn
+                  ></q-item-label
                 >
               </q-item-section>
             </q-item>
@@ -107,15 +111,13 @@
 </template>
 
 <script>
-import { contactsRaw } from "../lib/data";
-import { convertContactsIntoTree } from "../lib/funcs";
 import { copyToClipboard } from "quasar";
 // import _cloneDeep from 'lodash/cloneDeep';
 export default {
   name: "PageIndex",
   data() {
     return {
-      defaultRootNodes: convertContactsIntoTree(contactsRaw),
+      defaultRootNodes: [],
       rootNodes: [],
       filter: "",
       expanded: [],
@@ -218,7 +220,15 @@ export default {
     //   }
     // }
   },
-  mounted() {
+  async mounted() {
+    let data = await fetch("data.json");
+    if(data.ok) {
+      this.defaultRootNodes = await data.json();
+    } else {
+      this.defaultRootNodes = [];
+      alert("Ошибка при загрузке данных");
+    }
+
     this.rootNodes = this.defaultRootNodes;
     this.expanded = this.defaultExpanded();
   }

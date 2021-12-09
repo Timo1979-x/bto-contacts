@@ -247,7 +247,7 @@ const uist = {
   p: mainOffice
 };
 
-export const contactsRaw = [
+const contactsRaw = [
   {
     e: [{ t: 1, e: "harakh.e@gto.by" }],
     n: "Гарах Евгений Владимирович",
@@ -2911,11 +2911,6 @@ export const contactsRaw = [
     p: uist
   },
   {
-    e: [{ t: 1, e: "skarulis.s@gto.by" }],
-    n: "Скарулис Сергей Иосифович",
-    p: uist
-  },
-  {
     ph: [{ t: 1, p: "+37529 7001127" }],
     e: [{ t: 1, e: "piulski.v@gto.by" }],
     n: "Пиульский Владимир Геннадьевич",
@@ -2963,7 +2958,7 @@ export const contactsRaw = [
   {
     ph: [
       { t: PH_MOBILE, p: "+375 29 660-04-43" },
-      { t: PH_INTERNAL, p: "139" },
+      { t: PH_INTERNAL, p: "139" }
     ],
     e: [{ t: 1, e: "uradov.i@gto.by" }],
     n: "Урядов Игорь Юрьевич",
@@ -3018,3 +3013,5 @@ export const contactsRaw = [
     p: brestDept
   }
 ];
+
+module.exports = { contactsRaw };
